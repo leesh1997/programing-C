@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int num1, num2;		// 변수 num1, num2 선언
+	int num3 = 3, num4 = 4;		// 변수 num3, num4의 선언 및 초기화
+
+	num1 = 1;		// 변수 num1의 초기화
+	num2 = 2;		// 변수 num2의 초기화
+	num3 = 300;		// 변수 num3에 300 대입
+
+	printf("num1: %d, num2: %d \n", num1, num2);
+	printf("num3: %d, num4: %d \n", num3, num4);
+	return 0;
+}
